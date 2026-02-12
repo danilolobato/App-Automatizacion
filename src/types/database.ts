@@ -17,6 +17,7 @@ export interface WhatsAppConnection {
   is_active: boolean;
   connected_at: string;
   last_sync: string;
+  connection_type?: 'normal' | 'business';
 }
 
 export interface ChatMessage {
